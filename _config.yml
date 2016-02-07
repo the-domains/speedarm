@@ -1,14 +1,26 @@
-layout_spectrum: 0.06810036
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 typography_spectrum: 0.3243728
 color:
-  saturation: 0.653963
+  saturation: 0.734767
+  brandStrength: 0.9444444
   lightness: 0.3605538
-  brandStrength: 0.3064516
   brandColors:
     - '#F2F2F2'
     - '#161616'
     - '#C6C6C6'
     - '#393939'
     - '#5C5C5C'
-  rhythmicContrast: 0.3843485
+  rhythmicContrast: 0.4820789
+layout_spectrum: 0.06810036
 name: Speedarm
